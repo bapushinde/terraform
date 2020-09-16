@@ -1,6 +1,5 @@
-# terraform
-Terraform GCS Examples:
-Steps to Provision resource on GCP
+## Terraform GCS Example
+### Steps to Provision resources on GCP 
 1. Download source code from repository in desired location
 2. Enter into source code directory
 3. Terraform GCS example using remote-backend as GCS, to use local backend for state file. Disable "backend block in backend.tf file", Jump to step #7
