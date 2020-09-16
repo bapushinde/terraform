@@ -7,5 +7,5 @@ Steps to Provision resource on GCP
 4. Create `Service_Account` through GCP console with ``"Editor"`` permission
 5. Download `Service_Account` json into local directory.
 6. Edit backend.tf with `Service_Account` json file with absolute/relative path
-7. Edit main.tf and add `Service_Account` path into placeholder
+7. Edit main.tf and add `Service_Account` json file path into `google` provider block 
 8. execute `terraform init` command to setup current working directory to initialize terraform configuration.
