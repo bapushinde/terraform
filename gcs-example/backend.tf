@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket      = "<Bucket_Name>"
-    prefix      = "<Key_Prefix_Name>"
-    credentials = "~/<DIR_PATH>/<Service_Account_File_Name>.json"
+    bucket      = "practice-terraform-dev"
+    prefix      = "state-22092020"
+    credentials = var.serviceaccount
   }
 }
