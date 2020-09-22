@@ -26,5 +26,5 @@ module "computevm" {
   source  = "app.terraform.io/terraform-cloud-demo-22092020/computevm/google"
   version = "1.0.1"
   instances = 2
-  compute_vpc = "vpc_network"
+  compute_vpc = "terraform-network"
 }
