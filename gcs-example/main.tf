@@ -25,6 +25,6 @@ resource "google_compute_network" "vpc_network-2" {
 module "computevm" {
   source  = "app.terraform.io/terraform-cloud-demo-22092020/computevm/google"
   version = "1.0.1"
-  instaces = 2
+  instances = 2
   compute_vpc = google_compute_network.vpc_network
 }
