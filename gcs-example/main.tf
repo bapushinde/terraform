@@ -14,6 +14,6 @@ provider "google" {
   zone        = "us-east1-b"
 }
 
-resource "google_compute_network" "vpc_network" {
+ /* resource "google_compute_network" "vpc_network" {
   name = "terraform-network"
-}
+} */
